@@ -11,7 +11,7 @@ body
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 100%;
+	max-height: 100%;
 	flex-direction: column;
 	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)),url(https://assets.nflxext.com/ffe/siteui/vlv3/5e48e7b6-350d-48d9-96d6-de8ca173c89f/d04eff9f-1429-46dd-80a5-6233ed0732e8/PK-en-20221219-popsignuptwoweeks-perspective_alpha_website_large.jpg);
 }
