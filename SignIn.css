@@ -235,7 +235,7 @@ h2
 .inputBox input:focus ~ span 
 {
 	color: white;
-	transform: translateX(0rem) translateY(-8rem);
+	transform: translateX(0rem) translateY(-5rem);
 	font-size: 3rem;
 }
 .inputBox i 
@@ -263,7 +263,7 @@ h2
 .inputBox input 
 {
 	
-	font-size: 2rem;
+	font-size: 3rem;
 	
 }
 .links a 
