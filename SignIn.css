@@ -55,10 +55,10 @@ body
 	width: 380px;
 	height: 40rem;
 	transform-origin: bottom right;
-	background: linear-gradient(0deg,transparent,#E50914,#E50914);
+	background: linear-gradient(0deg,transparent,#E50914);
 	animation: animate 6s linear infinite;
 }
-.box::after 
+/* .box::after 
 {
 	content: '';
 	z-index: 1;
@@ -71,7 +71,7 @@ body
 	background: linear-gradient(0deg,transparent,#E50914,#E50914);
 	animation: animate 6s linear infinite;
 	animation-delay: -3s;
-}
+} */
 @keyframes animate 
 {
 	0%
@@ -97,7 +97,7 @@ form
 h2 
 {
 	color: white;
-	font-weight: 700;
+	font-weight: 500;
 	text-align: left;
 	letter-spacing: 0.1em;
 }
@@ -136,7 +136,7 @@ h2
 .inputBox input:valid ~ span,
 .inputBox input:focus ~ span 
 {
-	color: #E50914;
+	color: white;
 	transform: translateX(0px) translateY(-34px);
 	font-size: 0.75em;
 }
@@ -173,7 +173,7 @@ h2
 }
 .links a:hover
 {
-	color: #E50914;
+	color: white;
 }
 input[type="submit"]
 {
