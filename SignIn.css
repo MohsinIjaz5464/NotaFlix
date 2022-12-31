@@ -195,7 +195,7 @@ input[type="submit"]:active
 }
 
 @media screen 
- and (max-device-width: 800px){
+ and (max-device-width: 500px){
 
 .logo{
 
@@ -259,6 +259,12 @@ h2
 	color: #8f8f8f;
 	letter-spacing: 0.05em;
 	transition: 0.5s;
+}
+.inputBox input 
+{
+	
+	font-size: 2rem;
+	
 }
 .links a 
 {
